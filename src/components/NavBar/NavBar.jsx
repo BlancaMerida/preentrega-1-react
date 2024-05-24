@@ -7,9 +7,9 @@ import "./navbar.css"
 const NavBar = () => {
     return (
         <nav className="navbar">
-            <div className="brand">
+            <Link to="/" className="brand">
                 <img className="logo" src={logoJoye} alt="logo joye"/>
-            </div>
+            </Link>
             <ul className="categorias">
                 <Link to="/category/inicio" className="categoria">Inicio</Link>
                 <Link to="/category/productos" className="categoria">Productos</Link>

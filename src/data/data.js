@@ -6,7 +6,7 @@ const products = [
         price: 1500,
         stock: 9,
         category:"productos",
-        Image:"/image/collares.jpg"
+        image:"/image/collares.jpg"
     },
     {
         id: "celf223",
@@ -15,7 +15,7 @@ const products = [
         price: 1500,
         stock: 10,
         category:"contactos",
-        Image:"/image/mariposa1.jpg"
+        image:"/image/mariposa1.jpg"
     },
     {
         id: "cool323",
@@ -24,7 +24,7 @@ const products = [
         price: 1840,
         stock: 5,
         category:"productos",
-        Image:"/image/aretes1.jpg"
+        image:"/image/aretes1.jpg"
     },
     {
         id: "cel424",
@@ -33,7 +33,7 @@ const products = [
         price: 1300,
         stock: 8,
         category:"productos",
-        Image:"/image/anillos.jpg"
+        image:"/image/anillos.jpg"
     },
     {
         id: "celda425",
@@ -42,7 +42,7 @@ const products = [
         price: 5200,
         stock: 9,
         category:"inicio",
-        Image:"/image/arete2.jpg"
+        image:"/image/arete2.jpg"
     }, 
     {
         id: "gal463",
@@ -51,7 +51,7 @@ const products = [
         price:2500,
         stock: 11,
         category:"inicio",
-        Image:"/image/anillo.jpg"
+        image:"/image/anillo.jpg"
     }
 ]
 //obtener productos
