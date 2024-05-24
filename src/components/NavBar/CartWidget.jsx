@@ -1,10 +1,12 @@
 import { RiShoppingCartLine } from "react-icons/ri";
 
+import "./cartwidget.css"
+
 const CartWidget = () => {
     return(
-        <div>
+        <div className="cartwidget">
             <RiShoppingCartLine color="blue" size= {35}/>
-            <p>1</p>
+            <p className="number">1</p>
         </div>
     )
 }
