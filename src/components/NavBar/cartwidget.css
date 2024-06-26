@@ -9,3 +9,10 @@
 .cartwidget .number {
     padding: 0 5px;
 }
+
+.cart-black{
+    color: black;
+}
+.cart-pink{
+    color: palevioletred;
+}

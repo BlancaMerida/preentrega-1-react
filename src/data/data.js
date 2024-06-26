@@ -12,7 +12,7 @@ const products = [
         id: "celf223",
         name: "productos 2",
         descripcion:"description 2",
-        price: 1500,
+        price: 100,
         stock: 10,
         category:"contactos",
         image:"/image/mariposa1.jpg"
@@ -46,7 +46,7 @@ const products = [
     }, 
     {
         id: "gal463",
-        name: "productos 16",
+        name: "productos 6",
         descripcion:"description 6",
         price:2500,
         stock: 11,
