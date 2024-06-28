@@ -1,8 +1,12 @@
-# React + Vite
+# Rose Joyas - Venta de Yojas
+##### BLANCA MERIDA 
+ 
+## Descripción
+Proyecto Final de Blanca Merida para CODERHOUSE.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto representa el Trabajo Final del Curso de React llevado a cabo en CODERHOUSE.
 
-Currently, two official plugins are available:
+Incluye varios conceptos fundamentales como:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Promesas, Asincronía, Hooks, Promesas, Asincronías, Estados,Hooks, Children, Patrones, Eventos y Navegación Eventos Contexto Integración de Firebase para la conectividad con la base de datos.
+

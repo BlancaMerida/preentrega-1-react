@@ -1,16 +1,18 @@
 import ItemCount from "../ItemCount/ItemCount";
-import { useContext } from "react";
+import { useContext, useState} from "react";
 import { CartContext } from "../../context/CartContext";
 
 import "./itemDetail.css";
+import { Link } from "react-router-dom";
 
 const ItemDetail = ({ product }) => {
-
+    const [ocultarCount, setOcultarCount] = useState(false);
     const {agregarProducto } =useContext(CartContext)
     const addProduct =(count) =>{
         const productCart ={...product, quantity: count}
         agregarProducto(productCart)
-    }
+        setOcultarCount(true);
+    };
     return (
         <div className="item-detail">
             <div className="image-detail">
@@ -18,9 +20,13 @@ const ItemDetail = ({ product }) => {
             </div>
             <div className="content-detail">
                 <p className="name-detail">{product.name}</p>
-                <p className="text-detail">{product.description}</p>
+                <p className="text-detail">{product.descripcion}</p>
                 <p className="text-detail"> Precio: ${product.price}</p>
-                <ItemCount stock={product.stock} addProduct={addProduct}/>
+                {ocultarCount ? (
+                    <Link className="button-cart" to="/cart">Ir al carrito</Link>
+                ) : (
+                    <ItemCount stock={product.stock} addProduct={addProduct} />
+                )}
             </div>
         </div>
 

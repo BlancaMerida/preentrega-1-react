@@ -11,9 +11,9 @@ const NavBar = () => {
                 <img className="logo" src={logoJoye} alt="logo joye"/>
             </Link>
             <ul className="categorias">
-                <Link to="/category/inicio" className="categoria">Inicio</Link>
-                <Link to="/category/productos" className="categoria">Productos</Link>
-                <Link to="/category/contactos" className="categoria">Contactos</Link>
+                <Link to="/category/aros" className="categoria">Aros</Link>
+                <Link to="/category/cadenas" className="categoria">Cadenas</Link>
+                <Link to="/category/anillos" className="categoria">Pulseras/Anillos</Link>
             </ul>
             <CartWidget />
         </nav>

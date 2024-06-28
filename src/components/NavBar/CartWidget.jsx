@@ -10,7 +10,7 @@ const CartWidget = () => {
     let cantidad = cantidadTotal()
     return(
         <Link to="/cart" className={ cantidad >= 1 ? "cartwidget cart-black":"cartwidget cart-pink" }>
-            <RiShoppingCartLine color="blue" size= {35}/>
+            <RiShoppingCartLine size= {35}/>
             <p className="number">{cantidad >=1 && cantidad}</p>
         </Link>
     )
